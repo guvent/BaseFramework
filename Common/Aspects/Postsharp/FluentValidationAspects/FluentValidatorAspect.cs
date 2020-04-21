@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using Common.CrossCuttingConcers.Validation.FluentValidation;
+using Common.CrossCuttingConcerns.Validation.FluentValidation;
 using FluentValidation;
 using PostSharp.Aspects;
 

@@ -8,9 +8,10 @@ using Common.Abstract.DataAccess;
 using Common.Aspects.Postsharp;
 using Common.Aspects.Postsharp.CacheAspects;
 using Common.Aspects.Postsharp.FluentValidationAspects;
+using Common.Aspects.Postsharp.LogAspects;
 using Common.Aspects.Postsharp.TransActionAspectScope;
-using Common.CrossCuttingConcers.Caching.Microsoft;
-using Common.CrossCuttingConcers.Validation.FluentValidation;
+using Common.CrossCuttingConcerns.Caching.Microsoft;
+using Common.CrossCuttingConcerns.Logging.Log4Net.Loggers;
 using Entities.Abstract;
 using Entities.Concrete;
 using NHibernate.Linq;
@@ -40,6 +41,7 @@ namespace Business.Concrete
         }
 
         [CacheAspect(typeof(MemoryCaching))]
+        [LogAspect(typeof(DatabaseLogger))]
         public List<Product> GetAll()
         {
             return _productDal.GetList();
@@ -52,6 +54,7 @@ namespace Business.Concrete
 
         [FluentValidatorAspect(typeof(ProductValidator))]
         [CacheRemoveAspect(typeof(MemoryCaching))]
+        [LogAspect(typeof(DatabaseLogger))]
         public Product Add(Product product)
         {
             return _productDal.Add(product);

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using Common.CrossCuttingConcers.Caching;
+using Common.CrossCuttingConcerns.Caching;
 using PostSharp.Aspects;
 
 namespace Common.Aspects.Postsharp.CacheAspects

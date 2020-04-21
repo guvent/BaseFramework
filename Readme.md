@@ -105,10 +105,10 @@ Dependency Injection Yapılandırması
 ✔ Bölüm 60: Profesyonel Backend 3 : Log4Net
 İmplementasyonları
 
-Bölüm 61: Profesyonel Backend 3 : Log Aspectlerinin
+✔ Bölüm 61: Profesyonel Backend 3 : Log Aspectlerinin
 Yazımı
 
-Bölüm 62: Profesyonel Backend 3 : Log4Net
+❌ Bölüm 62: Profesyonel Backend 3 : Log4Net
 Konfigurasyonu
 
 Bölüm 63: Profesyonel Backend 3 : Loglama Tablosu

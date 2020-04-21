@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using System.Collections.Generic;
 
-namespace Common.CrossCuttingConcers.Logging
+namespace Common.CrossCuttingConcerns.Logging
 {
     public class LogDetail
     {

@@ -1,4 +1,4 @@
-﻿namespace Common.CrossCuttingConcers.Caching
+﻿namespace Common.CrossCuttingConcerns.Caching
 {
     public interface ICacheManager
     {

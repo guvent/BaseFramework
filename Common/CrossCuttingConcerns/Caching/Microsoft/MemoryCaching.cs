@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Caching;
-using System.Text;
 using System.Text.RegularExpressions;
 
-namespace Common.CrossCuttingConcers.Caching.Microsoft
+namespace Common.CrossCuttingConcerns.Caching.Microsoft
 {
     public class MemoryCaching : ICacheManager
     {

@@ -1,17 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using System.IO;
+using System.Reflection;
 using log4net;
+using log4net.Config;
 
-namespace Common.CrossCuttingConcers.Logging
+namespace Common.CrossCuttingConcerns.Logging.Log4Net
 {
+    [Serializable]
     public class LoggerService
     {
         private ILog _log;
 
         public LoggerService(ILog log)
         {
+            SetLog4NetConfiguration();
             _log = log;
+        }
+        private void SetLog4NetConfiguration()
+        {
+            if (_log != null) return;
         }
 
         public bool IsInfoEnabled => _log.IsInfoEnabled;

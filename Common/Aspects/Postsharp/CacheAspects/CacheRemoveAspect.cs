@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 using System.Text;
-using Common.CrossCuttingConcers.Caching;
+using Common.CrossCuttingConcerns.Caching;
 using PostSharp.Aspects;
 
 namespace Common.Aspects.Postsharp.CacheAspects

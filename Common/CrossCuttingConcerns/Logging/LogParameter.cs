@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Common.CrossCuttingConcers.Logging
+﻿namespace Common.CrossCuttingConcerns.Logging
 {
     public class LogParameter
     {

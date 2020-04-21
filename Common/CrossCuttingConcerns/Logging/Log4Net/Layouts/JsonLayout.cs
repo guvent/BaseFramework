@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
+﻿using System.IO;
 using log4net.Core;
 using log4net.Layout;
 using Newtonsoft.Json;
 
-namespace Common.CrossCuttingConcers.Logging.Log4Net.Layouts
+namespace Common.CrossCuttingConcerns.Logging.Log4Net.Layouts
 {
     public class JsonLayout:LayoutSkeleton
     {

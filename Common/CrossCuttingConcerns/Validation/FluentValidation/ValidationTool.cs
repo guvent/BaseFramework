@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using FluentValidation;
+﻿using FluentValidation;
 
-namespace Common.CrossCuttingConcers.Validation.FluentValidation
+namespace Common.CrossCuttingConcerns.Validation.FluentValidation
 {
     public class ValidationTool
     {

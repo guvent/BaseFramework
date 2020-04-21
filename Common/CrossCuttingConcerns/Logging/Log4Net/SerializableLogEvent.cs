@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using log4net.Core;
 
-namespace Common.CrossCuttingConcers.Logging.Log4Net
+namespace Common.CrossCuttingConcerns.Logging.Log4Net
 {
     [Serializable]
     public class SerializableLogEvent
